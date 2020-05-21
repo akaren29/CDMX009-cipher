@@ -6,9 +6,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <header>
+      <div id="alineacion">
+          <h1>MessageSecret</h1>  
+          <p>Te damos la bienvenida a la aplicación web que te permitirá cifrar y/o descifrar 
+             según sea tú necesidad, utilizamos el metodo <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">César</a> con el cual solo ingresas el mensaje,
+             el número de desplazamiento y voila!! Tendras tú mensaje listo para compartir.
+             De lo contrario si recibiste un mensaje encriptado, descifralo.
+          </p>
+      </div>
+    </header>
+  
+<main>
+   
+   <section id="P_Cifrar">
+    <form id="container">
+     <div id="P_Cifrar_a">
+     <input type="text" size="30"  id="message" class="message" placeholder="Mensaje a Cifrar">
+     <input type="number" id="position" class="position" placeholder="Selecciona número"> <br>
     </div>
-    <script src="index.js" type="module"></script>
+    <div>
+    <button id="botoncifrar" class="button-color" >Cifrar</button>
+    </div> 
+    <textarea class="resultado" id="messResult" placeholder="Mensaje cifrado"></textarea>
+  </div>
+   <div id="compartir">
+     <p>Compartir en: <a href="https://outlook.live.com/owa/">Outlook</a>
+    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1">Gmail</a></p> 
+  </form>
+   </section>
+  
+
+   
+     <section id="P_descifrar">
+      <div class="container-descifrar">
+      <div id="P_descifrar_a">
+    <input type="text1" size="30"  id="message1" class="message1" placeholder="Mensaje a Descifrar" title="Escribe el mensaje que deseas descifrar">
+    <input type="number1" id="position1" class="position1" placeholder="Selecciona número"  > <br>
+      </div>
+    <div>
+      <button id="botondescifrar" class="button-color1">Descifrar</button> 
+    </div>
+    <textarea class="resultado1" id="messResult1" placeholder="Mensaje descifrado"></textarea>
+  </div>
+  </section>
+  
+</main>  
   </body>
+  <script src="index.js" type="module"></script>
+ <footer>
+    Elaborado por Ana Karen Jasso
+ </footer> 
 </html>
+

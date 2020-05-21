@@ -1,0 +1,117 @@
+a{
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    color:gray;
+}
+
+
+#alineacion h1{
+    text-align: center;
+         font-family:cursive;
+         color:white;
+         font-size: 120px;
+         margin:2px;
+         text-shadow: 6px 5px gray;
+         background-image: url(images/prueba.jpg);
+         /*height: 500px; width: 1500px;*/
+         background-size: 30%;
+         height: 200px;  
+      
+}
+#botonpersonalizado a{
+
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 50px;
+    margin-left: 2s50px;
+    margin-right: 30px;
+
+    background-color: violet;
+    color:white;
+    font-size: 20px;
+
+}
+
+#alineacion, p{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-align:justify;
+    font-size:30px;
+    border:40px;
+    padding:40px;   
+}
+
+body{
+    background-color:#e0bbe4;
+}
+
+.message, .message1{
+
+width:50%;
+border: 3px solid #aaa;
+margin-top: auto;
+margin: auto;
+outline:none;
+padding:15px;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.position, .position1{
+width:13%;
+border: 3px solid #aaa;
+margin: auto;
+outline:none;
+padding:10px;
+box-sizing: border-box;
+border-radius: 30px;
+}
+
+.button-color, .button-color1{
+    width:15%;
+    margin: 10px 10px 10px 250px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.botondescifrar, #button-color{
+    width:15%;
+    margin: 10px 10px;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.resultado, .resultado1{
+    width:50%;
+    margin: 10px 10px;
+    padding:10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 3px solid #aaa;
+    outline:none;
+}
+
+#P_descifrar{
+    margin: 30px;
+    padding-left: 330px;
+    position: relative;
+    padding-bottom: 20px;
+    border: white 3px solid;
+    padding-top: 20px;
+}
+
+#P_Cifrar{
+    margin:30px;
+    padding-left: 350px;
+    position: relative;
+    padding-bottom: 10px;
+    border:white 3px solid;
+    padding-top: 20px;
+    font-size: 10px;
+}
+
