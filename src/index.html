@@ -4,54 +4,50 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div id="alineacion">
-          <h1>MessageSecret</h1>  
-          <p>Te damos la bienvenida a la aplicación web que te permitirá cifrar y/o descifrar 
-             según sea tú necesidad, utilizamos el metodo <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">César</a> con el cual solo ingresas el mensaje,
-             el número de desplazamiento y voila!! Tendras tú mensaje listo para compartir.
-             De lo contrario si recibiste un mensaje encriptado, descifralo.
+          <h1>PartySurprise</h1>  
+          <p class="bienvenida"> ¿Deseas organizar una fiesta sorpresa? Adelante genera el mensaje cifrado e ingresa la llave
+            para que compartas con tus amigos, si ya cuentas con invitación cifrada ingresa a descifrar invitación.
           </p>
+          <div class="enlaces">
+            <p class="styleO"><a href="#P_Cifrar">Cifrar Invitacion</a></p>
+            <p class="styleO"><a href="#P_descifrar">Descifrar Invitacion</a></p>
+          </div>
       </div>
     </header>
   
 <main>
    
    <section id="P_Cifrar">
-    <form id="container">
-     <div id="P_Cifrar_a">
-     <input type="text" size="30"  id="message" class="message" placeholder="Mensaje a Cifrar">
-     <input type="number" id="position" class="position" placeholder="Selecciona número"> <br>
-    </div>
-    <div>
-    <button id="botoncifrar" class="button-color" >Cifrar</button>
-    </div> 
-    <textarea class="resultado" id="messResult" placeholder="Mensaje cifrado"></textarea>
-  </div>
+      <p class='textIndi'>Ingresa el texto para cifrar, no olvides elegir la llave</p>
+       <input type="text" size="30"  id="message" class="message" placeholder="Mensaje a Cifrar">
+       <input type="number" id="position" class="position" placeholder="Llave"> <br>
+           <button id="botoncifrar" class="button-color" >Cifrar</button>
+             <textarea class="resultado" id="messResult" placeholder="Mensaje cifrado"></textarea>
+
    <div id="compartir">
-     <p>Compartir en: <a href="https://outlook.live.com/owa/">Outlook</a>
-    <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1">Gmail</a></p> 
-  </form>
+     <p class="share">Compartir a traves de: <a class="enlace2" href="https://outlook.live.com/owa/"><img src="images/outlook.png" alt="outlook"></a>
+      <a class="enlace2" href="www.gmail.com"><img src="images/gmail.jpg" alt="gmail"></a> 
+      <p class="return"><a class="regresoInicio" href="#alineacion">Regresar inicio</a></p>
    </section>
   
 
    
-     <section id="P_descifrar">
-      <div class="container-descifrar">
-      <div id="P_descifrar_a">
-    <input type="text1" size="30"  id="message1" class="message1" placeholder="Mensaje a Descifrar" title="Escribe el mensaje que deseas descifrar">
-    <input type="number1" id="position1" class="position1" placeholder="Selecciona número"  > <br>
-      </div>
-    <div>
-      <button id="botondescifrar" class="button-color1">Descifrar</button> 
-    </div>
-    <textarea class="resultado1" id="messResult1" placeholder="Mensaje descifrado"></textarea>
-  </div>
-  </section>
+  <section id="P_descifrar">
+        <p class='textIndi'>Descifra tu mensaje</p>
+         <input type="text1" size="30"  id="message1" class="message1" placeholder="Mensaje a Descifrar" title="Escribe el mensaje que deseas descifrar"> 
+         <input type="number" id="position1" class="position1" placeholder="Llave"  > <br>
+            <button id="botondescifrar" class="button-color1">Descifrar</button> 
+              <textarea class="resultado1" id="messResult1" placeholder="Mensaje descifrado"></textarea>
+              <p class="return"><a class="regresoInicio" href="#alineacion">Regresar inicio</a></p>
+              <p class="despedida"> Feliz fiesta vuelve pronto</p>
+   </section>
   
-</main>  
+</main> 
   </body>
   <script src="index.js" type="module"></script>
  <footer>
