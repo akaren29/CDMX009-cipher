@@ -5,7 +5,7 @@ La aplicación web PartySurprise se creó para cualquier usuario que quiera orga
 ## Herramienta de diseño 
 
 La herramienta usada para el prototipo fue Figma:
-(cipher.PNG)
+https://github.com/akaren29/CDMX009-cipher/blob/master/assets/cipher.PNG
 
 
 Ojetivos aplicados en el proyecto.
